@@ -1,0 +1,28 @@
+<!DOCTYPE hibernate-configuration PUBLIC 
+	"-//Hibernate/Hibernate Configuration DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<!-- <property name="connection.datasource">mysqlpool</property>
+		<property name="hibernate.jndi.class">weblogic.jndi.WLInitialContextFactory</property>
+		<property name="hibernate.jndi.url">t3://localhost:7001</property>
+		<property name="connection.username">weblogic</property>
+		<property name="connection.password">weblogic1</property> -->
+		
+		
+		
+	    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/bankingsystem_db</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password"></property>
+	    
+		<!-- Echo all executed SQL to console -->
+	    <property name="show_sql">true</property>
+		
+		<mapping resource="com/nacre/bankingsystem/config/login.hbm.xml"/>
+		<mapping resource="com/nacre/bankingsystem/config/customer.hbm.xml"/>
+		<mapping resource="com/nacre/bankingsystem/config/account.hbm.xml"/>
+		<mapping resource="com/nacre/bankingsystem/config/transaction.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

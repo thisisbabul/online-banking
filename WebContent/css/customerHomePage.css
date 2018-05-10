@@ -1,0 +1,134 @@
+.PhotographContainer{
+	height:130px;
+	width:120px;
+	margin:auto;
+	background-size:120px 130px;
+	/* background-color: silver; */
+	background-image:url("../images/default-photograph.jpg");
+	border:1px solid blue;
+}
+	.AccountDetailsTable{
+		color:darkblue;
+		font-size:20px;
+		border:1px solid blue;
+	}
+	.AccountDetailsTable td{
+		padding:5px;
+		width:280px;
+		border:1px solid blue;
+	}
+	.AccountDetailsTable span{
+		color:red;
+	}
+	
+div.FundTransferContainer{
+	padding:10px;
+	height:550px;
+	width:530px;
+}
+
+div.ChangeUsernamePasswordContainer{
+	height:600px;
+	width:1100px;
+}
+div.ChangeUsernamePasswordContainer input{
+	padding:1px 3px;font-size:18px;width:220px;color:darkblue;
+}
+div.ChangeUsernamePasswordContainer td{
+	color:blue;
+	font-size:18px;
+}
+div.Left{
+	position: absolute;
+	padding:10px;
+	height:500px;
+	width:350px;
+	/* background-color:red; */
+}
+div.Middle{
+	position: absolute;
+	margin-left:350px;
+	padding:10px;
+	height:500px;
+	width:350px;
+}
+div.Right{
+	margin-left:700px;
+	padding:10px;
+	height:500px;
+	width:350px;
+	/* background-color:blue; */
+}
+	/**************************************************/
+	
+		div.TransactionDetailsContainer{
+			width:1050px;
+			height:auto;
+			padding:10px 25px;
+		}
+		div.TransactionDetailsContainer th{
+			background-color:darkblue;
+			width:150px;
+			padding:5px 0px;
+			color:white;
+			border:1px solid blue;
+		}
+		div.TransactionDetailsContainer td{
+			background-color:lightblue;
+			width:150px;
+			padding:5px 0px;
+			color:blue;
+			text-align:center;
+			border:1px solid white;
+			
+		}
+		div.TransactionDetailsContainer span{
+			font-size:18px;
+			color:darkblue;
+		}
+		#loginDateId,#accountHolderNameId,#accountNoId{
+			color:background;
+		}
+		#transactionDetailsTbl{
+			border:1px solid blue;
+		}
+		
+#fundTransferContainer input{
+	padding:1px 3px;
+	font-size:18px;
+	width:230px;
+	color:darkblue;
+}		
+		
+	div.SideBarContainer
+{
+    border: 1px solid darkblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 5px;
+    margin-left: 700px;
+    height:430px;
+    width:398px;
+    background-color:silver;
+}
+div.QuickLinksBoard
+{
+    margin-top:5px;
+    padding: 2px 0px 0px 20px;
+    margin-left:8px;
+    border-radius: 20px;
+    border: 1px solid cyan;
+    height:150px;
+    width:360px;
+    background-color:white;
+    box-shadow: 5px 5px 5px #000;
+}
+div.QuickLinksBoard,a
+{
+    text-decoration: none;
+}
+div.QuickLinksBoard a:hover
+{
+    text-decoration:underline; 
+    
+}

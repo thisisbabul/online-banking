@@ -1,0 +1,235 @@
+/* body{
+	background-image:url('../images/bodybg.png');
+}
+ */
+div.MainContainer
+    {
+    margin : 0px auto;
+    height:auto;
+    width:1100px;
+    /* background-color: red; */
+    /*overflow: scroll;*/
+    }
+div.HeaderContainer
+    {
+    height:auto;
+    width:1100px;
+    /*background-color: green;*/
+    }
+
+div.Logo
+    {
+    position: absolute;
+    height:110px;
+    width:328px;
+    background-image:url('../images/logo.png');
+    }
+div.HeaderContent
+    {
+    margin-left:328px;
+    height:110px;
+    width:772px;
+    /*background-color:yellow;*/
+    }
+
+div.HeaderContentMenu
+    {
+    /*margin-left:328px;*/
+    /*padding-top: 5px;*/
+    height:40px;
+    width:772px;
+    /*background-color:greenyellow;*/
+    }
+div.LogedUserContent
+    {
+    height:30px;
+    width:752px;
+    /*background-color: aqua;*/
+    }
+div.SearchContent
+    {
+    margin-left:240px;
+    height:40px;
+    width:532px;
+    background-color:darkblue;
+    border-radius:5px;
+    }
+div.LoadingContainer{
+	position:absolute;
+	display:none;
+	margin-top:-80px;
+	margin-left:150px;
+	height:30px;
+	width:250px;
+}
+div.LoadingImage{
+	height:25px;
+	width:25px;
+	background-size:25px 25px;
+	background-image:url("../images/ve.gif");
+}
+#header-contactus-link #header-signin-link #header-signup-link ,a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+#header-contactus-link #header-signin-link #header-signup-link, a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+  
+div.MenuContainer
+    {
+    /*border:2px solid green;*/
+    height:35px;
+    width:1100px;
+    background-color: darkblue;
+    border-bottom-style: solid;
+    border-color: white;
+    background-image:url('../images/menu-background.jpg');
+    /*color:white;*/
+    }
+
+div.DisplayMessages
+{
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 2px 0px;
+    height: 50px;
+    width: 1100px;
+    /*background-color: white;*/
+    background-color:#FFA07A ;
+}
+
+div.MainBody
+{
+    margin-top: 5px;
+    width: 1100px;
+    height: auto;
+    /* background-color: green; */
+}
+div.HomePageDisplayer
+{
+    margin-top: 0px;
+    width: 1100px;
+    height: auto;
+}
+div.LeftContainer{
+	position: absolute;
+	padding:10px;
+	height:400px;
+	width:530px;
+	/* background-color:red; */
+}
+div.RightContainer{
+	margin-left:550px;
+	padding:10px;
+	height:400px;
+	width:530px;
+	/* background-color:blue; */
+}
+#menu ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        line-height: normal;
+}
+
+#menu li 
+{
+        /*display: block;*/
+        float: left;
+}
+
+#menu a 
+{
+        display: block;
+        float: left;
+        padding: 10px 25px 10px 25px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+}
+
+#menu li:hover 
+{ 
+        text-decoration: none; 
+        /* padding: 10px 25px 10px 25px; */
+        background-image:url('../images/menu-hover-background.jpg');
+        cursor:pointer;
+        /*background-color: activeborder;*/
+        
+        
+}
+
+div.SignIn h2 ,span
+{
+    color: cornflowerblue;
+}
+
+#d#close-btn:hover{
+	cursor:pointer;
+}
+/**************footer***********************/
+
+div.Footer
+    {
+    margin:-10px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: darkcyan;
+    background-color: cadetblue;
+    }
+
+ div.FooterContainer
+    {
+    margin:0px auto 0px auto;
+    /*height:400px;*/
+    width:1100px;
+    background-color: darkblue;
+    border:1px solid white;
+    border-top: none;
+    }
+
+ div.FooterQuickLink
+ {
+     padding: 0px 20px;
+     position: absolute;
+     height: auto;
+     width: 300px;
+     color: white;
+     /*background-color: red;*/
+     font-size: 16px;
+ }
+ div.FooterQuickLink a
+ {
+     color: white;
+     text-decoration: none;
+ }
+ div.Subscribe
+ {
+     padding: 20px;
+     margin-left: 340px;
+     height: auto;
+     width: 720px;
+     color: white;
+     /*background-color: green;*/
+ }
+ 
+/*******************  checking existing account ********************/
+ 
+ #checkAno:hover{
+			cursor:pointer;
+			text-decoration:underline;
+			color:green;
+		}
+		div.CheckingAccount{
+			height:20px;
+			width:20px;
+			background-size:20px 20px;
+			background-image:url("../images/ajax-loading.gif");
+		}
+ 

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+	<class name="com.nacre.bankingsystem.dto.AccountDTO" table="tbl_account">
+		<id name="accountNo" >
+			<generator class="increment" />
+		</id>
+		<property name="accountOpeningDate" />
+		<property name="accountType" />		
+		<property name="netBalance" />
+		<property name="transactionPassword" />
+	</class>
+</hibernate-mapping>

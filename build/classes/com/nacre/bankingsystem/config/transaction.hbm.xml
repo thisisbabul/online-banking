@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+	<class name="com.nacre.bankingsystem.dto.TransactionDTO" table="tbl_transaction">
+		<id name="transactionId" >
+			<generator class="com.nacre.util.TransactionIdGenerator" />
+		</id>
+		<timestamp name="transactionDate" />
+		<property name="transactionAmount" />		
+		<property name="accountNo" />
+		<property name="targetAccountNo" />
+		<property name="description" />
+		<property name="netBalance" />
+	</class>
+</hibernate-mapping>

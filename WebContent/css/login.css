@@ -1,0 +1,57 @@
+/**************************************/
+div.SignIn
+{
+    padding: 0px 20px;
+    position: absolute;
+    height: auto;
+    width: 460px;
+    /*background-color: aqua;*/
+}
+
+div.SignIn h4
+{
+    color: darkblue;
+}
+div.SignUp h2
+{
+    color: cornflowerblue;
+}
+div.SignUp h4
+{
+    color: darkblue;
+}
+div.LoginImageContainer
+{
+    /*margin-top: -20px;*/
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    padding: 0px 20px;
+    
+    /*background-color: chocolate;*/
+}
+div.LoginImage{
+	margin-top:50px;
+	height: 350px;
+    width: 500px;
+    background-size:500px 350px;
+    background-image: url("../images/login.jpg");
+}
+
+#username ,#password
+        {
+            width:250px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        #user-name, #email-id, #pwd, #cpwd
+        {
+            width:230px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        #close-btn:hover
+        {
+            cursor: pointer;
+        }

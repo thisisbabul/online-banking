@@ -1,0 +1,27 @@
+
+div.PhotographContainer{
+	height:110px;
+	width:108px;
+	background-size:108px 110px;
+	/* background-color: silver; */
+	background-image:url("../images/default-photograph.jpg");
+	border:1px solid blue;
+}
+#tbl-account-opening{
+	font-size:18px;
+	color:blue;
+}
+#tbl-account-opening td{
+	width:230px;
+}
+#tbl-account-opening input{
+	padding:1px 3px;
+	font-size:18px;
+	width:280px;
+	color:blue;
+}
+
+#btnSubmit:hover,#btnReset:hover{
+	cursor:pointer;
+	color:black;
+}

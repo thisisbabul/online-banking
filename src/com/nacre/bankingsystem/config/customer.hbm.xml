@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+	<class name="com.nacre.bankingsystem.dto.CustomerDTO" table="tbl_customer">
+		<id name="accountNo" />
+		<property name="firstName" />
+		<property name="lastName" />
+		<property name="fatherName" />
+		<property name="dateOfBirth" />
+		<property name="gender" />
+		<property name="nationality" />
+		<property name="maritalStatus" />
+		<property name="mobileNo" />
+		<property name="emailId" />
+		<property name="address" />
+		<property name="photograph" />
+		<property name="loginId" />		
+	</class>
+</hibernate-mapping>
